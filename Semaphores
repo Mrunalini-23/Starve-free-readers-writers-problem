@@ -1,0 +1,3 @@
+mutex //ensures mutual exclusion between readers and writers
+mutex_wrt //ensures mutual exclusion between writer processes
+mutex_read //ensures changing read count(rc) value
