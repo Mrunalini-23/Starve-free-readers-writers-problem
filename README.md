@@ -1,1 +1,1 @@
-# Starve-free-readers-writers-problem
+The main view of readers-writers problem is to make sure that there are no data inconsistancies when a resource is shared.In this multiple readers can concurrently access the resource,where as there will be data incosistencies when multiple writers try to access the resorce. 
