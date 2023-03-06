@@ -1,0 +1,10 @@
+Wait(mutex);
+Wait(mutex_read);
+if(rc==1)Wait(mutex_wrt);
+Signal(mutex_read);
+Signal(mutex);
+//perform read process
+Wait(read_mutex);
+if(rc==0)
+Signal(mutex_wrt);
+Signal(mutex_read);
