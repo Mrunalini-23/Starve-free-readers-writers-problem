@@ -1,0 +1,3 @@
+mutex //binary semaphore used for prioritizing writer and reader processes avoiding starvation
+mutex_wrt //binary semaphore used for mutual exclusion between writer processes
+mutex_read //binary semaphore used for read counting(read_count)
