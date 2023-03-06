@@ -1,0 +1,5 @@
+Wait(mutex);
+Wait(mutex_wrt);
+//perform write process
+Signal(mutex_wrt);
+Signal(mutex);
